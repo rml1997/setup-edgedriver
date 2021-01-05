@@ -1,9 +1,9 @@
 {
-  "name": "setup-chromedriver",
+  "name": "setup-edgedriver",
   "version": "1.0.3",
   "private": true,
-  "description": "setup-chromedriver",
-  "main": "lib/setup-chromedriver.js",
+  "description": "setup-edgedriver",
+  "main": "lib/setup-edgedriver.js",
   "scripts": {
     "build": "tsc",
     "format": "prettier --write **/*.ts",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nanasess/setup-chromedriver.git"
+    "url": "git+https://github.com/rml1997/setup-edgedriver.git"
   },
   "keywords": [
     "actions",
     "php",
     "setup"
   ],
-  "author": "nanasess",
+  "author": "rml1997",
   "license": "GPL",
   "dependencies": {
     "@actions/core": "^1.2.6",
