@@ -1,7 +1,7 @@
-name: 'setup-chromedriver'
-description: 'Setup chromedriver'
-author: 'nanasess'
+name: 'setup-edgedriver'
+description: 'Setup edgedriver'
+author: 'rml1997'
 runs:
   using: 'node12'
-  main: 'lib/setup-chromedriver.js'
+  main: 'lib/setup-edgedriver.js'
 
