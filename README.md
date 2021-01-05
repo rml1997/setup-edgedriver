@@ -16,7 +16,7 @@ steps:
 - uses: actions/checkout@master
 - uses: rml1997/setup-edgedriver@master
   with:
-    # Optional: do not specify to match Chrome's version
+    # Optional: do not specify to match Edge's version
     webdriver-version: '77.0.3865.40'
 - run: |
     export DISPLAY=:99
